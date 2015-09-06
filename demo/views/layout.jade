@@ -1,0 +1,11 @@
+doctype html
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    script
+        |     var TogetherJSConfig_hubBase = 'http://localhost:3000/';
+    script(src='https://togetherjs.com/togetherjs-min.js')
+  body
+    block content
+    button(onclick='TogetherJS(this); return false;') Start TogetherJS

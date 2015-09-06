@@ -1,0 +1,25 @@
+{
+  "name": "tjh-express",
+  "version": "1.0.0",
+  "description": "TogetherJS Hub express module",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/kingmario/tjh-express.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "TogetherJS",
+    "Host",
+    "Express",
+    "Module"
+  ],
+  "author": "Mario",
+  "license": "MIT",
+  "dependencies": {
+    "websocket": "^1.0.21",
+    "websocket-server": "miksago/node-websocket-server#master"
+  }
+}
