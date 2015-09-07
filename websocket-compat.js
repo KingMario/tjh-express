@@ -25,7 +25,7 @@ WebSocketRequest.prototype.broadcastUTF =
   WebSocketServer.prototype.broadcastUTF;
 
 var miksagoServerFactory = require('websocket-server');
-var miksagoConnection = require('./node_modules/websocket-server/lib/ws/connection');
+var miksagoConnection = require('websocket-server/lib/ws/connection');
 
 var CompatWebSocketServer = function(options) {
   events.EventEmitter.call(this); // superclass constructor
